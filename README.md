@@ -1,7 +1,7 @@
 # dialpad-cli
 Dialpad CLI Utilities
 
-##Install
+## Install
 
 1. `pip3 install -r requirements.txt`
 
@@ -12,7 +12,7 @@ supply this key.
 
 3. Enjoy!
 
-##Usage
+## Usage
 Most of the utilites have a `-h` help command line option with the available arguments.
 Some of the utilites have no available options.
 
