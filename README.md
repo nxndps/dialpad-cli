@@ -22,7 +22,7 @@ export file, you may use a pipe or redirect to capture the data.
 
 eg:
 ```shell
-% src/office_license.py 2>&1 output.log
+% src/office_license.py > output.log
 {
  "additional_number_lines": "0", 
  "contact_center_lines": "6", 
