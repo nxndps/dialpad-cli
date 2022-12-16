@@ -5,8 +5,9 @@ Dialpad CLI Utilities
 
 1. `pip3 install -r requirements.txt`
 
-2. You will need an API key to user the CLI Utilities. You have two methods to
-supply this key. 
+2. You will need an API key to user the CLI Utilities. See [Create an API Key](https://help.dialpad.com/hc/en-us/articles/360019680532-Create-an-API-Key) for instructions on this.
+
+You have two methods to supply this key to the CLI. 
 - Create or update `.dp.env` in the local directory add the line `dptoken=XXXXXXXXX` .
 - Create the ENV variable `dptoken` with the API key value.
 
