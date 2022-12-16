@@ -35,9 +35,12 @@ eg:
  "uberconference_lines": "0"
 }
 ```
-you could also capture both 
+You could also capture both 
+
 `src/office_license.py >> output.log 2>&1` 
-or send to `tee`
+
+Or send to `tee`
+
 `src/office_license.py  2>&1 | tee output.log`
 
 The output by default JSON so having jq available is recommended.
